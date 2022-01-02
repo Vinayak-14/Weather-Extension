@@ -1,0 +1,15 @@
+{
+    "name":"Weather App",
+    "description": "An app which displays weather",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup": "./popup.html",
+        "default_icon": "logo21.png"
+    },
+    "icons": {
+       "128": "logo21.png"
+       
+     },
+    "permissions":  ["activeTab"]
+}
